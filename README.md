@@ -3,7 +3,7 @@ Getting and Cleaning Data Course Project
 
 ### How does the analysis run.analysis.R works
 - All pre-processed data sets (X_train, y_train, X_test, y_test), the subject-identifiers (subject_train, subject_test), 
-  activity-labels and 561 feature variables (features) are loaded as txt-files from "UCI HAR Dataset" using read.table 
+  activity-identifiers (activity_labels) and 561 feature variables (features) are loaded as txt-files from "UCI HAR Dataset" using read.table 
 - train and test data sets are merged using rbind
 - measurements concerning mean and standard deviation are extracted using: grep("[Mn]ean|[Ss]td",..)
 - subject-identifiers (1 to 30) and activity labels (1 to 6) are merged with the combined train and test sets
