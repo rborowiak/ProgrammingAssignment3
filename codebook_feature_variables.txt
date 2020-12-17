@@ -1,8 +1,8 @@
-Feature variables for tidy data set 
+88 Feature variables for tidy data set (180 x 88) elements
 given out by analysis-script run_analysis.R
 ===========================================
 
-- t: time signals, 
+- t stands for time signals, f stands for frequency domain  
 - Activity = WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING,
 - Subject_ID 1 to 30
 
